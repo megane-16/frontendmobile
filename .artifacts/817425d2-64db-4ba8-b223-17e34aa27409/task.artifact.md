@@ -1,0 +1,6 @@
+- [x] Corriger les erreurs existantes (http, modèles, vues)
+- [ ] Créer `lib/models/quiz_model.dart`
+- [ ] Créer `lib/services/quiz_repository.dart`
+- [ ] Créer `lib/views/theory_view.dart`
+- [ ] Créer `lib/views/quiz_view.dart`
+- [ ] Mettre à jour `lib/bottom_navigation_bar.dart`
