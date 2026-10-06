@@ -11,11 +11,9 @@ class ApiService {
   static bool isEmulator = true;
   static String emulatorUrl = 'http://127.0.0.1:8000/api';
   static String physicalDeviceUrl =
-      'http://192.168.2.217:8000/api'; // Mise à jour avec la bonne IP
+      'https://autoecole-project1-jqin.kennhosting.app/api'; // Mise à jour avec la bonne IP
 
-  static String get baseUrl {
-    return isEmulator ? emulatorUrl : physicalDeviceUrl;
-  }
+  static String baseUrl = 'https://autoecole-project1-jqin.kennhosting.app/api';
 
   Future<Map<String, String>> _getHeaders() async {
     final Map<String, String> headers = {
